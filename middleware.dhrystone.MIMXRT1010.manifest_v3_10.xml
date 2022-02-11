@@ -1,16 +1,17 @@
 <ksdk:manifest xmlns:ksdk="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="middleware.dhrystone.MIMXRT1011.manifest_v3_9" name="dhrystone" brief="customer external dhrystone" format_version="3.10" api_version="2.0.0" configuration="37bbf4eb706f3814bfad8f3a27525c83" xsi:schemaLocation="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd http://nxp.com/mcuxpresso/sdk/sdk_manifest_v3.9.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SDK_2.x_middleware_dhrystone_MIMXRT1011_manifest_v3_10" name="dhrystone" brief="customer external dhrystone" format_version="3.10" api_version="2.0.0" configuration="37bbf4eb706f3814bfad8f3a27525c83" xsi:schemaLocation="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd http://nxp.com/mcuxpresso/sdk/sdk_manifest_v3.10.xsd">
     <externalDefinitions>
         <definition extID="MIMXRT1011xxxxx"/>
         <definition extID="core0_MIMXRT1011xxxxx"/>
     </externalDefinitions>
+    <ksdk id="MCUXpressoSDK2110_middleware_dhrystone_MIMXRT1011_manifest_v3_10" name="MCUXpressoSDK2110_middleware_dhrystone_MIMXRT1011_manifest_v3_10" version="2.12.0"/>
     <components>
-        <component id="middleware.dhrystone.MIMXRT1011" name="Customer dhrystone" brief="Customer dhrystone" version="2.8.1" full_name="Customer dhrystone" devices="MIMXRT1011xxxxA" device_cores="core0_MIMXRT1011xxxxA" category="Customer dhrystone" user_visible="true" type="middleware" package_base_path="./" project_base_path="dhrystone">
-            <source type="src">
+        <component id="middleware.dhrystone.MIMXRT1011" name="Customer dhrystone" brief="Customer dhrystone" version="2.8.1" full_name="Customer dhrystone" devices="MIMXRT1011xxxxx" device_cores="core0_MIMXRT1011xxxxx" category="Customer dhrystone" user_visible="true" type="middleware" package_base_path="./" project_base_path="dhrystone">
+            <source relative_path="./" type="src">
                 <files mask="dhry_1.c"/>
                 <files mask="dhry_2.c"/>
             </source>
-            <source type="c_include">
+            <source relative_path="./" type="c_include">
                 <files mask="dhry.h"/>
             </source>
             <include_paths>
