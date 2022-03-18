@@ -10,6 +10,7 @@
             <source relative_path="./" type="src">
                 <files mask="dhry_1.c"/>
                 <files mask="dhry_2.c"/>
+                <files mask="strcmp.S"/>
             </source>
             <source relative_path="./" type="c_include">
                 <files mask="dhry.h"/>
